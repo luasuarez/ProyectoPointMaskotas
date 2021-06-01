@@ -1,0 +1,100 @@
+
+.seccionCentral {
+  width: 100%;
+
+}
+
+.seccionCentral .categorias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27%;
+    margin-bottom: 0%;
+    
+}
+
+.seccionCentral .categorias h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 0%;
+}
+
+.seccionCentral .todosLosArticulos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+
+.seccionCentral .todosLosArticulos article {
+    background-color: white;
+    width: 33.3%;
+    height: 300px;
+    margin: 15px;
+    padding: 45px;
+}
+
+.seccionCentral .todosLosArticulos article h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: green;
+
+}
+
+.seccionCentral .todosLosArticulos article img{
+    width: 90%;
+    height: 250px;
+}
+
+.seccionCentral .todosLosArticulos article a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    color: black;
+    background-color: greenyellow
+
+}
+
+.seccionCentral2 {
+    width: 100%;
+  
+  }
+  
+  .seccionCentral2 .categorias2{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0%;
+      
+  }
+
+  .seccionCentral2 .todosLosArticulos2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.seccionCentral2 .todosLosArticulos2 article img{
+    width: 100%;
+    margin-right: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
