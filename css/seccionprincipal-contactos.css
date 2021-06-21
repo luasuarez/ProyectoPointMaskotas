@@ -1,0 +1,42 @@
+
+.infoEmpresa {
+    width: 100%;
+    height: 235px;
+    margin-left: 5px;
+    margin-top: -20px;
+
+}
+
+.infoEmpresa p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    
+}
+
+.infoEmpresa h2{
+    font-size: 1.2rem;
+}
+
+.mapaUbicacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+
+}
+
+.mapaUbicacion p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+
+}
+
+.mapaUbicacion iframe{
+    margin-top: 20px;
+}
+

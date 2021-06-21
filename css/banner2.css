@@ -1,10 +1,14 @@
+
+/* Banner principal */
+
 .banner2{
-    margin-top: -11%;
+    height: 30vh;
+
 }
 
 .banner2 .row{
     width: 300%;
-    height: 5vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     animation: banner 24s infinite;
@@ -13,7 +17,7 @@
 
 .banner2 .row .col-100{
     width: 100%;
-    height: 90vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;

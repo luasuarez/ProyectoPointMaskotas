@@ -1,158 +1,272 @@
 /* Pie de Página */
 
-.container-footer{
+footer{
     width: 100%;
-    height: 88vh;
-    background-color: green
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
-.container-footer .filter{
+footer .row-footer{
     width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+footer .row-footer img{
+    width: 20%;
+    margin: 0px;
+    margin-left: 50px;
 }
 
-.container-footer .filter .row:nth-child(1){
-    width: 70%;
-    margin: 0 auto;
+footer .row-footer .empresa{
+    width: 20%;
+    height: 83%;
+    background-color: honeydew;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 25px;
 }
 
-.container-footer .filter .row:nth-child(1) img{
-    width: 30%;
-    margin-top: 50px;
-}
-
-.container-footer .filter .row:nth-child(2){
-    width: 60%;
-    margin: 0 auto;
+footer .row-footer .empresa p{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: greenyellow;
+    text-align: center ;
+    margin-top: 0%;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
-    width: 25%;
-    padding: 20px 10px;
-    margin-left: 40px;
+footer .row-footer .empresa ul{
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center ;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+footer .row-footer .empresa ul li{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     list-style: none;
+    text-align: center ;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li{
-    padding: 5px 20px;
-    font-family:'Arial, Helvetica, sans-serif';
-    font-weight: 600;
-    font-size: 10px;
-    text-transform:uppercase;
-    letter-spacing: 1px;
-    transition: ease-in-out .5s;
+footer .row-footer .empresa ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center ;
+    color: black;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:nth-child(1){
-    color:#f63812;
+footer .row-footer .categorias{
+    width: 20%;
+    height: 83%;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 50px;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:nth-child(1){
-    color:#f63812;
+footer .row-footer .categorias p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: greenyellow;
+    text-align: center ;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:hover{
-    color: #f63812;
-    cursor: pointer;
+footer .row-footer .categorias ul{
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center ;
 }
 
+footer .row-footer .categorias ul li{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    text-align: center ;
+}
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
-    width: 25%;
+footer .row-footer .categorias ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center ;
+    color: black;
+}
+
+footer .row-footer .redsocial{
+    width: 5%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+}
+
+footer .row-footer .redsocial img{
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+}
+
+footer .row-footer .redsocial-n{
+    width: 5%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    margin-left: 0%;
+}
+
+footer .row-footer .redsocial-n ul{
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center ;
+}
+
+footer .row-footer .redsocial-n ul li{
+    margin: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    text-align: center ;
+}
+
+footer .row-footer .redsocial-n ul li a{
+    display: flex;
+    margin-left: 0%;
+    text-decoration: none;
+    color: black;
+}
+
+footer .row-formulario {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+footer .row-formulario .col-60{
+    width: 70%;
+    height: 50vh;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+footer .row-formulario .col-60 form{
+    width: 100%;
+}
+
+footer .row-formulario .col-60 form .tittle{
+    width: 100%;
     padding: 20px;
+    box-sizing: border-box;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
-    list-style: none;
+footer .row-formulario .col-60 form .tittle h2{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 0%;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li{
-    padding: 5px 20px;
-    font-family:'Arial, Helvetica, sans-serif';
-    font-weight: 600;
-    font-size: 10px;
-    text-transform:uppercase;
-    letter-spacing: 1px;
-    transition: ease-in-out .5s;
-}
-
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:hover{
-    color: #f63812;
-    cursor: pointer;
-}
-
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
-    width: 50%;
+footer .row-formulario .col-60 form .casillas{
     display: flex;
-    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 10px;
+    margin-left: 0%;
+    margin-top: 0%;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-}
-
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7rem;
-    margin-bottom: 25px;
-}
-
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
-    border-radius: 5px;
+footer .row-formulario .col-60 form .casillas input{
+    margin: 10px;
+    border: solid 2px #d5d5d4;
+    border-radius: 8px;
+    font-size: 1rem;
     outline: none;
-    border: none;
-    padding: 7px 10px;
-    font-size: 1.2rem;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
-    width: 60%;
-    padding: 7px 12px;
-    margin-top: 30px;
-    background-color: #65f865;   
-    color: azure; 
-    border: none;
-    letter-spacing: 2px;
+footer .row-formulario .col-60 form .casillas input:focus{
+    border: solid 2.1px #d5d5d4;
+    box-sizing: border-box;
 }
 
-.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button:hover{
-    background-color:#a8eec5;    
+footer .row-formulario .col-60 form .casillas input:active{
+    border: none;
+}
+
+footer .row-formulario .col-60 form .comentarios{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15px;
+}
+
+footer .row-formulario .col-60 form .comentarios textarea{
+    border-radius: 9px;
+    outline: none;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+footer .row-formulario .col-60 form .button button{
+    border-radius: 12px;
+    padding: 6px 3px;
+    width: 10%;
+    background-color:white;
+    font-size: 1;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+footer .row-formulario .col-60 form .button button:hover{
     cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
-.container-footer .filter .row:nth-child(3){
-    width: 70%;
-    margin: 0 auto;
+footer span{
+    height: 10vh;
+    background-color: rgba(128, 128, 128, 0.473);
     display: flex;
     justify-content: center;
-    flex-direction: column;
-}
-
-.container-footer .filter .row:nth-child(3) img{
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 80px;
-}
-
-.container-footer .filter .row:nth-child(3) span{
-    width: 100%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #020202;
-    font-size: 12px;
-    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 20px;
 }

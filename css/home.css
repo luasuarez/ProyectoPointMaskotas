@@ -1,3 +1,5 @@
+/* Home navegador */
+
 nav{
     display: flex;
     justify-content: center;
@@ -15,7 +17,7 @@ nav ul{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background-color: aqua;
+    background-color:yellow;
     align-content: center;
 }
 

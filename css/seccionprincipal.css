@@ -1,0 +1,140 @@
+
+.infoEmpresa {
+    width: 50%;
+    height: 235px;
+    margin-left: 5px;
+    margin-top: -20px;
+    background-color: yellowgreen;
+
+}
+
+.infoEmpresa p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    
+}
+
+.infoEmpresa h2{
+    font-size: 1.2rem;
+}
+
+.imgEmpresa {
+    width: 48%;
+    height: 235px;
+    margin-left: 700px;
+    margin-top: -235px;
+    background-color: yellowgreen;
+
+}
+
+.imgEmpresa img{
+    height: 150px;
+    margin-left: 220px;
+    margin-top: 35px;
+   
+   
+}
+
+.imgEmpresa p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: -190px;
+    
+}
+
+
+.misionEmpresa {
+    width: 50%;
+    height: 235px;
+    margin-left: 5px;
+    margin-top: -20px;
+    background-color: yellowgreen;
+
+}
+
+
+.misionEmpresa p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    
+}
+
+.misionEmpresa h2{
+    font-size: 1.2rem;
+}
+
+
+.visionEmpresa {
+    width: 48%;
+    height: 235px;
+    margin-left: 700px;
+    margin-top: -270px;
+    background-color: yellowgreen;
+
+}
+
+
+.visionEmpresa p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    
+}
+
+.visionEmpresa h2{
+    font-size: 1.2rem;
+}
+
+
+.imgEmpresaGener {
+    width: 100%;
+    height: 210px;
+    margin-left: 4px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+
+}
+
+
+.imgEmpresaGener img{
+    height: 150px;
+    margin-left: 600px;
+    margin-top: 35px;
+     
+}
+
+
+.imgEmpresaGener p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: -190px;
+    
+}
+
+.objetivosEmpresa {
+    width: 100%;
+    height: 210px;
+    margin-left: 4px;
+    margin-top: 210px;
+    background-color: yellowgreen;
+
+}
+
+.objetivosEmpresa p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: -190px;
+    
+}
+
